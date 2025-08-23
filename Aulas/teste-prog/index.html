@@ -9,39 +9,31 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="logo.png" alt="" style="width: 150px; margin: 20px;">
-            <ul class="list-inline d-inline float-right">
-                <li class="list-inline-item"><a href="">Diária</a></li>
-                <li class="list-inline-item"><a href="">Semanal</a></li>
-                <li class="list-inline-item"><a href="">Quinzenal</a></li>
-                <li class="list-inline-item"><a href="">Demanda</a></li>
-                <li class="list-inline-item"> <a href="">Importação</a></li>
-                <li class="list-inline-item"><a href="">Relatórios</a></li>
+        <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+            <img src="logo.png" alt="" class="navbar-brand" style="width: 150px;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Diária</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Semanal</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Quinzenal</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Demanda</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Importação</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Relatórios</a></li>
             </ul>
         </nav>
     </header>
     <div>
         <br>
-        <h1 class="h3">Programação Semanal</h1>
-        <form action="" class="input-group">
-            <fieldset class="d-block input-group-text">
-                <label for="semana">Semana</label>
-                <input type="text" name="semana">
-                <label for="maquina">Máquina</label>
-                <input type="text" name="maquina">
-                <label for="data">Data</label>
-                <input type="date" name="data">
-                <label for="demanda">Demanda</label>
-                <input type="datalist" name="demanda">
-                <br>
-                <label for="codigo">Código</label>
-                <input type="text" name="codigo">
-                <a href="" id="lupa" class="d-inline-block">a</a>
-                <a href="" id="demanda" class="d-inline-block">l</a>
-                <label for="descrição">Descrição</label>
-                <input type="text" name="descrição" width="300px">
+        <h1 class="h6">Programação Semanal</h1>
+        <form action="" class=" input-group-text was-validated" id="formulario">
+            <fieldset>
+                <label for="semana" class="form-label">Semana</label>
+                <input type="text" class="form-control" name="semana" required id="">
+                <label for="maquina" class="form-label">Máquina</label>
+                <input type="text" class="form-control" name="maquina" id="">
+                <label for="data" class="form-label">Data</label>
+                <input type="date" class="form-control" name="" id="">
             </fieldset>
+            
         </form>
     </div>
     <footer></footer>

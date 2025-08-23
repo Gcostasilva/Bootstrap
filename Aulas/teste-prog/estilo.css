@@ -1,17 +1,4 @@
-nav a{
-    color: white;
-    padding-right: 40px;
-    padding-top: 40px;
-    margin-top: 40px;
-}
-nav{
-    background-color: rgb(91, 93, 199);
-}
 
-nav a:hover{
-    color: aliceblue;
-    background-color: rgba(91, 93, 199, 0.699);
-}
 #lupa{
     width: 25px;
     height: 25px;
@@ -20,6 +7,10 @@ nav a:hover{
 #lupa:hover{
     background-color: antiquewhite;
     text-decoration: none;
+}
+#formulario{
+    left: 45%;
+    width: 80%;
 }
 #demanda{
     width: 25px;
